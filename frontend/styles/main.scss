@@ -63,7 +63,7 @@ header {
         background-color: #FF9E53;
         color: #fff;
         &:hover {
-            background-color: #ff903b;
+            background-color: #FFBB87;
             color: #fff;
         }
     }
@@ -75,7 +75,7 @@ header {
     .stats-detail {
         padding-top: 15px;
         background-color: #fff;
-        padding-left: 50px;
+        padding-left: 40px;
     }
     h2 {
         font-size: 30px;
@@ -84,5 +84,59 @@ header {
     p {
         font-size: 20px;
         font-weight: lighter;
+    }
+}
+
+// Wisata Populer
+.section-populer {
+    min-height: 540px;
+    background-color: #051334;
+    margin-top: -50px;
+    margin-bottom: -230px;
+    .section-populer-heading {
+        margin-top: 150px;
+        h2,
+        p {
+            color: #fff;
+        }
+        h2 {
+            font-family: 'Playfair Display';
+            font-weight: bold;
+            font-size: 40px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+.section-populer-content {
+    .section-populer-travel {
+        .card-travel {
+            min-height: 380px;
+            background-color: #ddd;
+            color: #fff;
+            padding: 30px 20px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+        .travel-country {
+            font-size: 18px;
+            color: #fff;
+        }
+        .travel-location {
+            font-size: 26px;
+            color: #fff;
+        }
+        .travel-button {
+            .btn-travel-details {
+                background-color: #FF9E53;
+                color: #fff;
+                &:hover {
+                    background-color: #FFBB87;
+                    color: #fff;
+                }
+            }
+        }
     }
 }
