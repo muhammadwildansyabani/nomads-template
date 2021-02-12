@@ -160,6 +160,7 @@ header {
     }
 }
 
+// Testimonial
 .section-testimonial-heading {
     background: linear-gradient(#fff 0%, #f7f9ff 100%);
     padding-top: 50px;
@@ -218,5 +219,18 @@ header {
             background-color: #FBFBFB;
             color: #C3C3C3;
         }
+    }
+}
+
+// Footer
+.section-footer {
+    h5 {
+        color: #071C4D;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    a {
+        color: #071C4D;
+        font-size: 18px;
     }
 }
