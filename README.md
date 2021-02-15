@@ -11,8 +11,8 @@ Dalam project ini saya melakukan slicing web design dari Adobe XD yang disiapkan
 
 1. Clone atau download zip Repository ini.
 
-2. Install Extensi VSCODE dibawah ini :
-Live Sass Compiler (ritwickdey.live-sass)
+2. Install Extensi VSCODE dibawah ini : <br>
+Live Sass Compiler (ritwickdey.live-sass) <br>
 Live Server (ritwickdey.liveserver)
 
 3. Jalankan 2 extensi tersebut.
